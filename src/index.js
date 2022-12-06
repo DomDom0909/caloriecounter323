@@ -8,7 +8,6 @@ addMeal.addEventListener("click", function(event) {
     addToTable(event);
 });
 
-// this function is not quite pure due to using global constants and changing outer data
 function addToTable(event) {
     if (meal.value !== "" && calories.value !== "") { 
         const newMeal = document.createElement("tr");
