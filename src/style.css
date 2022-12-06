@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+main {
+    width: 50%;
+    margin-left: 25%;
+    text-align: right;
+}
+h1 {
+    text-align: left;
+    font-size: 200%;
+}
+input {
+    width: 200px;
+}
+button {
+    padding: 30px;
+    border-radius: 5px;
+    border: 0px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: left;
+}
+.flex {
+    display: inline-flex;
+}
+#remove {
+    background-color: black;
+    color: white;
+}
+#addMeal {
+    background-color: black;
+    color: white;
+}
+@media (max-width: 800px) {
+    .flex {
+        display: inline-block;
+    }
+}
